@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grpc.Server", "Grpc.Server\Grpc.Server.csproj", "{EF97377B-B860-4499-B3DD-2EED118210B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eskom.HttpClient", "Eskom.HttpClient\Eskom.HttpClient.csproj", "{366B38BC-ED4D-4057-92EC-2E3D8E565AF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF97377B-B860-4499-B3DD-2EED118210B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF97377B-B860-4499-B3DD-2EED118210B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF97377B-B860-4499-B3DD-2EED118210B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF97377B-B860-4499-B3DD-2EED118210B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{366B38BC-ED4D-4057-92EC-2E3D8E565AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{366B38BC-ED4D-4057-92EC-2E3D8E565AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{366B38BC-ED4D-4057-92EC-2E3D8E565AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{366B38BC-ED4D-4057-92EC-2E3D8E565AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

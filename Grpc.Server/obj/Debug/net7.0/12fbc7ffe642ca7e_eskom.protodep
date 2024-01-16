@@ -1,0 +1,4 @@
+obj\Debug\net7.0\Protos/Eskom.cs \
+obj\Debug\net7.0\Protos/EskomGrpc.cs: C:/Users/Christo/.nuget/packages/grpc.tools/2.49.0/build/native/include/google/protobuf/empty.proto\
+ C:/Users/Christo/.nuget/packages/grpc.tools/2.49.0/build/native/include/google/protobuf/timestamp.proto\
+ Protos/eskom.proto

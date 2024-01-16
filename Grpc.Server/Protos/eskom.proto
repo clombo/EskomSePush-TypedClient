@@ -1,0 +1,82 @@
+﻿syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+
+option csharp_namespace = "Grpc.Server";
+
+package eskom;
+
+service Eskom {
+  rpc GetStatus (google.protobuf.Empty) returns (StatusResponse);
+  rpc SearchArea (AreaSearchRequest) returns (AreaSearchResponse);
+  rpc ApiAllowance (google.protobuf.Empty) returns (AllowanceResponse);
+  rpc AreasNearby (NearbyRequest) returns (AreasNearbyResponse);
+  rpc TopicsNearby (NearbyRequest) returns (TopicsNearbyResponse);
+}
+
+message NearbyRequest{
+  double lat = 1;
+  double lon = 2;
+}
+
+message AllowanceResponse{
+  int32 count = 1;
+  int32 limit = 2;
+  string type = 3;
+}
+
+message AreaSearchRequest {
+  string text = 1;
+}
+
+message AreaSearchResponse {
+  repeated Areas areas = 1;
+}
+
+message StatusResponse {
+  repeated Status status = 1;
+}
+
+message AreasNearbyResponse {
+  repeated Areas areas = 1;
+}
+
+message TopicsNearbyResponse {
+  repeated Topics topics = 1;
+}
+
+message Status {
+  string name = 1;
+  CurrentStage current = 2;
+  repeated NextStage next = 3;
+}
+
+message CurrentStage {
+  string stage = 1;
+  google.protobuf.Timestamp updated = 2;
+}
+
+message NextStage {
+  string stage = 1;
+  google.protobuf.Timestamp start = 2;
+}
+
+message Areas {
+  string id = 1;
+  string name = 2;
+  string region = 3;
+}
+
+message Topics {
+  google.protobuf.Timestamp active = 1;
+  string body = 2;
+  string category = 3;
+  double distance = 4;
+  int32 followers = 5;
+  google.protobuf.Timestamp timestamp = 6;
+}
+
+
+
+

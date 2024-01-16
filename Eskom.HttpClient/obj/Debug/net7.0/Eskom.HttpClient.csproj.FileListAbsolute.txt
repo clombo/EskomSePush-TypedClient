@@ -1,0 +1,12 @@
+E:\learn_code\httpClients\HttpTypedClient\Eskom.HttpClient\bin\Debug\net7.0\Eskom.HttpClient.deps.json
+E:\learn_code\httpClients\HttpTypedClient\Eskom.HttpClient\bin\Debug\net7.0\Eskom.HttpClient.dll
+E:\learn_code\httpClients\HttpTypedClient\Eskom.HttpClient\bin\Debug\net7.0\Eskom.HttpClient.pdb
+E:\learn_code\httpClients\HttpTypedClient\Eskom.HttpClient\obj\Debug\net7.0\Eskom.HttpClient.csproj.AssemblyReference.cache
+E:\learn_code\httpClients\HttpTypedClient\Eskom.HttpClient\obj\Debug\net7.0\Eskom.HttpClient.GeneratedMSBuildEditorConfig.editorconfig
+E:\learn_code\httpClients\HttpTypedClient\Eskom.HttpClient\obj\Debug\net7.0\Eskom.HttpClient.AssemblyInfoInputs.cache
+E:\learn_code\httpClients\HttpTypedClient\Eskom.HttpClient\obj\Debug\net7.0\Eskom.HttpClient.AssemblyInfo.cs
+E:\learn_code\httpClients\HttpTypedClient\Eskom.HttpClient\obj\Debug\net7.0\Eskom.HttpClient.csproj.CoreCompileInputs.cache
+E:\learn_code\httpClients\HttpTypedClient\Eskom.HttpClient\obj\Debug\net7.0\Eskom.HttpClient.dll
+E:\learn_code\httpClients\HttpTypedClient\Eskom.HttpClient\obj\Debug\net7.0\refint\Eskom.HttpClient.dll
+E:\learn_code\httpClients\HttpTypedClient\Eskom.HttpClient\obj\Debug\net7.0\Eskom.HttpClient.pdb
+E:\learn_code\httpClients\HttpTypedClient\Eskom.HttpClient\obj\Debug\net7.0\ref\Eskom.HttpClient.dll
